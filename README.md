@@ -20,4 +20,4 @@ This string, in this case "Welcome home, EchoBot." when typed into any channel w
 
 Just in case:
 
-* You can have multiple lock-on phrases by botching more `or` into the `if`. Since the lock-on happens with `on_message`, theoretically you can re-lock-on if needed.
+* You can have multiple lock-on phrases by botching more `or` into the `if`. Ìf you need to relock, kill the bot and start it again, make sure to have multiple phrases so people won't notice. 
