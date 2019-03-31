@@ -12,7 +12,7 @@ You'll need:
 You'll need to:
 
 1. Change the lock-on string
-`if (message.content.startswith('Welcome home, EchoBot.')):```
+`if (message.content.startswith('Welcome home, EchoBot.')):`
 This string, in this case "Welcome home, EchoBot." when typed into any channel will lock the bot to that channel.
 2. Change the token from `client.run("Your token here")` to the token you got from the bot 
 3. Open `cmd` or your terminal of choice and install `requirement.txt` because EchoBot is on `rewrite`
