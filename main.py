@@ -13,6 +13,10 @@ handler = logging.FileHandler(filename='discord.log', encoding='utf-8', mode='w'
 handler.setFormatter(logging.Formatter('%(asctime)s:%(levelname)s:%(name)s: %(message)s'))
 logger.addHandler(handler)
 
+#
+@client.event
+async def on_ready():
+    print("Ready to lock-on\n")
 # The only function
 @client.event
 async def on_message(message):
